@@ -1,8 +1,26 @@
 aid: terrafirma
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/terrafirma.png
 name: TerraFirma
-description: 'TerraFirma is a company surfaced as a portfolio company of bain-capital-ventures, kleiner-perkins
-  and added to the API Evangelist network as a stub for enrichment. Sector: physical-ai. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'TerraFirma, Inc. is a construction technology and physical-AI company
+  building the robotic infrastructure stack for modern heavy-civil construction. Founded
+  in 2024 by former SpaceX engineers and based in Austin, Texas, it combines AI-enabled
+  pre-construction software (Mission Planner), a remote command-and-control center
+  (Mission Control), and retrofitted semi-autonomous heavy machinery — excavators,
+  bulldozers, loaders, graders and rollers operated autonomously, remotely, or traditionally.
+  The company raised roughly $115M including a $100M Series A led by Kleiner Perkins
+  with Bain Capital Ventures. TerraFirma publishes no public developer/API surface
+  as of this enrichment pass.'
 url: https://raw.githubusercontent.com/api-evangelist/terrafirma/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Physical Ai
+- Robotics
+- Construction
+- Autonomous Systems
+- Construction Technology
+- Heavy Equipment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +47,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/terrafirma-domain-security.yml
 - type: Website
   url: https://terrafirma.inc/
+- type: Support
+  url: https://terrafirma.inc/contact/
+- type: TermsOfService
+  url: https://terrafirma.inc/terms-of-service
+- type: PrivacyPolicy
+  url: https://terrafirma.inc/privacy-policy/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
